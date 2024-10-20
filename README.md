@@ -4,5 +4,5 @@
 
 - [hub](https://fish-from-SanDiego.github.io/is-web-y26) (список лаб, а не хаб сайта)
 - [lab 1](https://fish-from-SanDiego.github.io/is-web-y26/lab1) - гайд по Factorio (статья)
-- [lab 1](https://fish-from-SanDiego.github.io/is-web-y26/lab2) - гайд по Factorio с CSS
+- [lab 2](https://fish-from-SanDiego.github.io/is-web-y26/lab2) - гайд по Factorio с CSS
 - ...
