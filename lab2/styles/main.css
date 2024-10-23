@@ -93,7 +93,7 @@ a.header__menu-link:hover {
 }
 
 .main__content {
-    padding-top: 20px;
+    padding: 20px 0 30px;
 }
 
 .article {
@@ -172,7 +172,7 @@ li.unordered-list__item {
 }
 
 .article-section__image {
-    max-width: 50%;
+    max-width: 70%;
     max-height: 50vh;
     margin: 0 auto;
     display: block;
@@ -201,4 +201,102 @@ a.article-section__text--link {
 
 a.article-section__text--link:hover {
     text-decoration: underline;
+}
+
+.aside {
+    background-color: white;
+    box-shadow: 0 0 2px gray;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main__side-flow {
+    box-sizing: border-box;
+    width: 260px;
+    margin: 20px auto;
+}
+
+.aside__item {
+    padding: 5px 10px;
+}
+
+.aside__item-text {
+    font-weight: 400;
+    text-indent: 0;
+    text-align: left;
+    margin: 0.5em 0;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.aside__item-text--bold {
+    font-weight: 700;
+}
+
+a.aside__item-text--link {
+    text-decoration: none;
+    color: #7091E6;
+    font-weight: 550;
+}
+
+a.aside__item-text--link:hover {
+    text-decoration: underline;
+}
+
+q.aside__item-text--quoted {
+    quotes: "«" "»";
+}
+
+q.aside__item-text--quoted:before {
+    content: open-quote;
+}
+
+q.aside__item-text--quoted:after {
+    content: close-quote;
+}
+
+.aside__item-text--cite {
+    font-style: italic;
+}
+
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.footer__inner {
+    background-color: #282A35;
+}
+
+.footer__inner-content {
+    margin: 0 auto;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.vertical-container__main-item {
+    margin: 20px 0;
+}
+
+a.vertical-container__main-item-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 450;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    color: #EDE8F5;
+    text-align: center;
+    margin: auto;
+}
+
+a.vertical-container__main-item-link:hover {
+    text-decoration: none;
+    color: antiquewhite;
 }
