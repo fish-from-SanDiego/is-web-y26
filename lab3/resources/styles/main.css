@@ -198,6 +198,7 @@ a.header__menu-link:hover {
 @media only screen and (max-width: 600px) {
     .main__content {
         max-width: none;
+        padding: 0;
     }
 }
 
