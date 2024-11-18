@@ -107,6 +107,18 @@ main {
     width: 60px;
 }
 
+@media only screen and (max-width: 768px) {
+    .header__logo-image {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header__logo-image {
+        width: 45px;
+    }
+}
+
 .header__menu {
     display: flex;
     flex-direction: row;
@@ -139,41 +151,42 @@ a.header__menu-link:hover {
 
 .base-layout {
     box-sizing: border-box;
-    width: clamp(1200px, 90%, 2200px);
-    margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+}
+
+
+.main__content {
+    padding: 20px 15px;
+    width: clamp(1200px, 90%, 2200px);
+    margin: 0 auto;
     gap: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
-    .base-layout {
+    .main__content {
         width: initial;
         max-width: 970px;
     }
 }
 
 @media only screen and (max-width: 992px) {
-    .base-layout {
+    .main__content {
         max-width: 750px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .base-layout {
+    .main__content {
         max-width: 590px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .base-layout {
+    .main__content {
         max-width: none;
     }
-}
-
-.main__content {
-    padding: 20px 15px;
 }
 
 .article {
