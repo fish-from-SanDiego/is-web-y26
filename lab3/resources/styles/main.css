@@ -107,15 +107,27 @@ main {
     width: 60px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+    .header__logo-image {
+        width: 55px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     .header__logo-image {
         width: 50px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .header__logo-image {
         width: 45px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header__logo-image {
+        width: 35px;
     }
 }
 
