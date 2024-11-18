@@ -1,0 +1,38 @@
+﻿.article-header {
+    font-weight: 700;
+}
+
+.article-section {
+    font-size: 2rem;
+}
+
+.section-header {
+    font-weight: 550;
+}
+
+ul.unordered-list {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+.image-collection {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.article {
+    background-color: white;
+    box-shadow: 0 0 2px gray;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
