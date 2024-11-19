@@ -1,6 +1,10 @@
-﻿main {
-    background-color: #EBF0F2;
+﻿.main {
     flex: 1;
+    display: flex;
+}
+
+.main--standard-color {
+    background-color: #EBF0F2;
 }
 
 .base-layout {
@@ -8,6 +12,11 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    align-items: flex-start;
+}
+
+.base-layout--from-left {
+    justify-content: flex-start;
 }
 
 .aside {

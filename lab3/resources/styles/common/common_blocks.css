@@ -10,9 +10,14 @@
     font-weight: 550;
 }
 
-ul.unordered-list {
+.unordered-list {
     list-style-type: disc;
     list-style-position: outside;
+}
+
+.about {
+    background-color: white;
+    box-shadow: 0 0 2px gray;
 }
 
 .image-collection {
