@@ -20,6 +20,15 @@
     box-shadow: 0 0 2px gray;
 }
 
+.table {
+    background-color: white;
+    display: grid;
+}
+
+.table-row {
+    display: contents;
+}
+
 .image-collection {
     box-sizing: border-box;
     display: flex;
