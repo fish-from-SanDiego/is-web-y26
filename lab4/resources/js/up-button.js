@@ -3,6 +3,9 @@
 
     window.addEventListener('scroll', hideUpButtonIfNeeded);
     buttonElement.addEventListener('click', onUpButtonClick);
+    buttonElement.addEventListener('touchStart', (e) => {
+        e.preventDefault();
+    }, false);
 
     function onUpButtonClick() {
         window.scrollTo({
