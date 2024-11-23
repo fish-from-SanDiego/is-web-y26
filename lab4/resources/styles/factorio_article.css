@@ -36,17 +36,18 @@
 }
 
 .page-header__inner {
+    box-sizing: border-box;
     background-color: #282A35;
 }
 
 .page-header__inner-content {
-    width: clamp(1200px, 90%, 2560px);
+    box-sizing: border-box;
+    max-width: clamp(1200px, 90%, 2560px);
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: stretch;
     justify-content: flex-start;
-    box-sizing: border-box;
     padding: 0 15px;
 }
 
@@ -138,6 +139,7 @@ a.page-header__menu-link:hover {
 }
 
 .main__content {
+    box-sizing: border-box;
     padding: 20px 15px;
     width: clamp(1200px, 90%, 2560px);
     margin: 0 auto;
@@ -355,4 +357,41 @@ a.vertical-container__main-item-link {
 a.vertical-container__main-item-link:hover {
     text-decoration: none;
     color: antiquewhite;
+}
+
+.centering-button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__up-button--hidden {
+    display: none;
+}
+
+.main__up-button {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.main__up-button--rounded {
+    background-color: white;
+    border-radius: 50%;
+    padding: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s;
+}
+
+.main__up-button--rounded:hover {
+    opacity: 0.7;
+}
+
+.centering-button__rounded-image {
+    border-radius: 50%;
+    user-select: none;
+    width: 5rem;
+    height: 5rem;
 }
