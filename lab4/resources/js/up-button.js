@@ -1,8 +1,10 @@
 {
-    const buttonElement = document.querySelector('.main__up-button');
 
     window.addEventListener('scroll', hideUpButtonIfNeeded);
-    buttonElement.addEventListener('click', onUpButtonClick);
+    document.addEventListener('DOMContentLoaded', () => {
+        const buttonElement = document.documentElement.querySelector('.main__up-button');
+        buttonElement?.addEventListener('click', onUpButtonClick);
+    });
 
     function onUpButtonClick() {
         window.scrollTo({
