@@ -123,6 +123,7 @@
 }
 
 .page-header__menu-link {
+    box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     font-size: 2.4rem;
     font-weight: 450;
@@ -136,6 +137,10 @@
 .page-header__menu-link:hover {
     text-decoration: none;
     color: antiquewhite;
+}
+
+.page-header__menu-link--current {
+    color: #F3E5AB;
 }
 
 .page-footer__inner {
