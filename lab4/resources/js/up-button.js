@@ -18,7 +18,9 @@
         const windowHeight = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
         const footerCoords = footerElement.getBoundingClientRect();
         const buttonElement = document.querySelector('.main__up-button');
+        if (!buttonElement) return;
         const buttonClasses = buttonElement.classList;
+        console.log(windowHeight);
         if (!buttonElement) return;
         if (window.scrollY === 0 || (footerCoords.top - windowHeight) <= 0)
             buttonClasses.add('main__up-button--hidden');
