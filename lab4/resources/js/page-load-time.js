@@ -4,11 +4,9 @@
     let pageLoadDelta;
     const onDOMLoad = () => {
         domLoadDelta = (Date.now() - scriptStartTime) / 1000;
-        console.log(`DOM load time is ${domLoadDelta}`);
     };
     const onPageLoad = () => {
         pageLoadDelta = (Date.now() - scriptStartTime) / 1000;
-        console.log(`Page load time is ${pageLoadDelta}`);
         const sidebarElement = document.querySelector('.aside');
         if (sidebarElement) {
             const text = document.createElement('p');
