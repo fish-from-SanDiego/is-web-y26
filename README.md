@@ -8,4 +8,5 @@
 - [lab 3](https://fish-from-SanDiego.github.io/is-web-y26/lab3) - CSS Responsive
 - [lab 4](https://fish-from-SanDiego.github.io/is-web-y26/lab4) - JS
 - [lab 5](https://fish-from-SanDiego.github.io/is-web-y26/lab5) - JS elements generation
+- [lab 6](https://fish-from-SanDiego.github.io/is-web-y26/lab6) - JS Promise + Fetch
 
