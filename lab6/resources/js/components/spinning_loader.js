@@ -4,15 +4,16 @@ template.innerHTML = `
 
 :host {
     width: 58px;
+    color: gray;
 }
 
 div {
-display: block;
+    color: inherit;
     box-sizing: border-box;
     width: 100%;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 8px solid gray;
+    border: 8px solid currentColor;
     animation:
             l20-1 var(--loader-spin-time, 0.8s) infinite linear alternate,
             l20-2 var(--loader-spin-time-doubled, 1.6s)  infinite linear;
