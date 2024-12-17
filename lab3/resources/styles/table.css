@@ -189,7 +189,7 @@
     flex: 1 1;
 }
 
-.table--calc-results {
+.table--specific {
     overflow-x: auto;
     display: inline-grid;
     min-width: 100%;
@@ -199,12 +199,12 @@
     border-right: 2px solid black;
 }
 
-.table--calc-results .table-row:nth-of-type(odd) .table__cell-value {
+.table--specific .table-row:nth-of-type(odd) .table__cell-value {
     background-color: lightgray;
 }
 
 
-.table--calc-results > .table__column-header,
+.table--specific > .table__column-header,
 .table__main-header,
 .table-row > .table__cell-value {
     border-bottom: 2px solid black;
