@@ -1,4 +1,5 @@
 const template = document.createElement('template');
+// noinspection CssUnresolvedCustomProperty
 template.innerHTML = `
 <style>
 
